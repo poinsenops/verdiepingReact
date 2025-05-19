@@ -1,0 +1,13 @@
+const Footer = () => {
+    return (
+        <>
+            <div className="dark:bg-black bg-white dark:text-white py-4">
+                <div className="container mx-auto max-w-8/10 px-4 flex justify-between items-center">
+                    <h1 className="text-lg font-bold">poinsenDecks</h1>
+                </div>
+            </div>
+        </>
+    )
+};
+
+export { Footer };
